@@ -36,7 +36,8 @@ set -e
 
 THIS_DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" &>/dev/null && pwd )
 SS_URL="https://sparse.tamu.edu"
-ARCHIVE_LOCATION="${HOME}/.config/ssget"
+mkdir -p ./dataset
+ARCHIVE_LOCATION="./dataset"
 
 mkdir -p "${ARCHIVE_LOCATION}"
 
