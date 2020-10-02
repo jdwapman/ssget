@@ -1,7 +1,6 @@
 #!/bin/bash
 
 NUM_PROBLEMS=$(./ssget -n)
-NUM_PROBLEMS=2
 TOTAL_SIZE=0
 
 for (( i=1; i <= ${NUM_PROBLEMS}; ++i )); do
